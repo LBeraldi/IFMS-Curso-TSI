@@ -1,0 +1,53 @@
+body{
+   background-color: rgb(0, 0, 63);
+}
+
+.titulo{
+    color: rgb(253, 94, 94);
+    font-family: arial;
+    font-style: italic, bold;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.sub-titulo{
+    color: deepskyblue;
+    font-size: 18px;
+    font-family: arial;
+    font-style: italic, bold;
+    border: 2px solid rgb(199, 199, 199);
+
+}
+
+.lista{
+    margin: 15px;
+    padding: 15px;
+    color: antiquewhite;
+}
+
+#texto{
+    text-align: justify;
+    font-family: arial;
+    color: antiquewhite;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#img-racao{
+    height: 400px;
+    width: 400px;
+}
+
+.link{
+    color: antiquewhite;
+    font-family: arial;
+    font-style: bold;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+}

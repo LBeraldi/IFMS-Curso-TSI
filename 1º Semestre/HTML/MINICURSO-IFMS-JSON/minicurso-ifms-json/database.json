@@ -1,0 +1,69 @@
+{
+    "systemSettings":{
+        "name": "JsonFlix",
+        "logo": "assets/image/logo.png",
+        "favicon": "assets/image/icone.png",
+        "author": "Minicurso-JSON"
+    },
+    "menu": [
+        {
+            "name": "Inicio"
+        },
+        {
+            "name": "Séries"
+        },
+        {
+            "name": "Filmes"
+        },
+        {
+            "name": "Bombando"
+        },
+        {
+            "name": "Minha Lista"
+        }
+    ],
+    "emphasis":{
+        "name": "Stranger Things",
+        "description": "Depois que Will vê algo terrível na noite das gostosuras ou travessuras, Mike se pergunta se Onze ainda está por perto. Nancy enfrenta a verdade sobre a morte de Barb.",
+        "banner1": "https://i.pinimg.com/originals/70/2f/f4/702ff453ddfba830024af2fcc33da8c0.png",
+        "banner2": "https://images3.alphacoders.com/882/882548.jpg",
+        "year": 2022,
+        "classification": "16",
+        "duration": "Série"
+    },
+    "categories": [
+        {
+            "name": "Em alta",
+            "movies": [
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                },
+                {
+                "name": null,
+                "banner3": "https://i.pinimg.com/236x/ab/80/1f/ab801f600efb13c0eb82b4710ba673b0.jpg"
+                }
+            ]
+        }
+    ]
+}

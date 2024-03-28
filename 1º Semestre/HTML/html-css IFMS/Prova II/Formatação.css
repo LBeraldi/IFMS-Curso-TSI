@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(5, 207, 5);
+}
+
+.t1{
+    margin: 30px;
+    padding: 50px;
+    font-size: 50px;
+    color: red;
+}
+
+.t2{
+    font-size: 30px;
+    color: black;
+}

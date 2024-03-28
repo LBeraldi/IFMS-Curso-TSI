@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(5, 207, 5);
+}
+
+.titulo1{
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    font-size: 50px;
+    color: red;
+}
+
+.titulo2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.formulario{
+    margin-left: 50px;
+}
+
+footer{
+    text-align: center;
+}

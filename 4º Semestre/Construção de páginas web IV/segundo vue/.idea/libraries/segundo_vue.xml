@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="segundo vue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Projeto vue.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Nova pasta.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
