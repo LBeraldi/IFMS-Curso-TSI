@@ -32,14 +32,22 @@ export default{
   },
   methods:{
     addCliente(msg){
-      //  [TODO] Alterar para poder atualizar um cliente
-      alert(msg);
-      if () {
+      if(this.cliente.id === ""){
         this.cliente.id = this.contador++;
         this.clientes.push(this.cliente);
         this.cliente = new Cliente();
+      }else{
+        for(let i = 0; i < this.clientes.length; i++){
+          if(this.clientes[i].id === this.cliente.id){
+            this.clientes[i].nome = this.cliente.nome;
+            this.clientes[i].email = this.cliente.email;
+            this.clientes[i].telefone = this.cliente.telefone;
+            this.cliente = new Cliente();
+            return;
+          }
+        }
       }
-      },
+    },
     removerCliente(objParaRemover){
       alert(objParaRemover.id);
       for(let i in this.clientes){
@@ -48,6 +56,16 @@ export default{
           break;
         }
       }
+    },
+    editarCliente(objParaEditar){
+      this.cliente = new Cliente();
+      this.cliente.id = objParaEditar.id;
+      this.cliente.nome = objParaEditar.nome;
+      this.cliente.email = objParaEditar.email;
+      this.cliente.telefone = objParaEditar.telefone;
+    },
+    cancelarEdicao(){
+      this.cliente = new Cliente();
     }
   }
 }
@@ -55,8 +73,19 @@ export default{
 
 <template>
     <h1>Home</h1>
-    <my-form :campos="campos" :objeto="cliente" @onSalvar="addCliente"></my-form>
-    <my-table :cabecalho="cabecalho" :dados="clientes" @onRemover="removerCliente"></my-table>
+<!--  <button>Novo cliente</button>-->
+    <my-form :campos="campos" 
+              :objeto="cliente"
+              @onCancelar="cancelarEdicao"   
+              @onSalvar="addCliente">
+    </my-form>
+    <my-table :cabecalho="cabecalho" 
+              :dados="clientes" 
+              :showEditar="true"
+              :showRemover="true"
+              @onEditar="editarCliente"
+              @onRemover="removerCliente">
+    </my-table>
 </template>
 
 <style scoped>
@@ -73,5 +102,6 @@ export default{
   button{
     display: block;
     margin: 2px;
+    background-color: yellow;
   }
 </style>
